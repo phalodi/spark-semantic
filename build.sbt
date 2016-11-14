@@ -25,7 +25,9 @@ libraryDependencies ++= Seq(
   "ant-contrib" % "ant-contrib" % "1.0b3",
   "com.cedarsoftware" % "json-io" % "4.0.0",
   "org.topbraid" % "spin" % "1.4.0",
-  "org.apache.hive" % "hive-jdbc" % "1.2.1"
+  "org.apache.hive" % "hive-jdbc" % "1.2.1",
+  "junit" % "junit" % "4.11",
+  "junit-addons" % "junit-addons" % "1.4"
 )
 
 resolvers += "Local Maven Repository" at "file:///"+Path.userHome+"/.m2/repository"
